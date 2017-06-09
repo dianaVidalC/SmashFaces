@@ -9,6 +9,7 @@ const render = (root)=>{
     const wrapper =$('<div class="wrapper"></div>');
 
     wrapper.append(Header(_=>{render(update)}));
+    wrapper.append(empiezaJuego(_=>{render(update)}));
 
     root.append(wrapper);
 }

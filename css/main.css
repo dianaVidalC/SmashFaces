@@ -1,18 +1,25 @@
-header>h2{
+header h2{
     font-family: 'Rokkitt', serif;
 }
 
-header>h2:after{
+header h2:after{
     content: '';
     position: absolute;
-    top: 51px;
-    left: 9px;
-    width: 4%;
+    top: 33px;
+    left: 15px;
+    width: 38px;
     border: 1px solid #000;
 }
 
-}
-header>p{
+header p{
     font-family: 'Roboto', sans-serif;
 }
 
+.elige{
+    color: #cccc;
+    width: 13rem;
+}
+
+.seleccionar{
+    margin-top: 2rem;
+}
