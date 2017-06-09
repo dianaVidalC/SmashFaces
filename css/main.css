@@ -1,0 +1,18 @@
+header>h2{
+    font-family: 'Rokkitt', serif;
+}
+
+header>h2:after{
+    content: '';
+    position: absolute;
+    top: 51px;
+    left: 9px;
+    width: 4%;
+    border: 1px solid #000;
+}
+
+}
+header>p{
+    font-family: 'Roboto', sans-serif;
+}
+
