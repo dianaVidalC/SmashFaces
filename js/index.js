@@ -8,12 +8,27 @@ const render = (root)=>{
 
     const wrapper =$('<div class="wrapper"></div>');
 
-    wrapper.append(Header(_=>{render(update)}));
-    wrapper.append(empiezaJuego(_=>{render(update)}));
+    wrapper.append(Header(_=>{render(root)}));
+    wrapper.append(empiezaJuego(_=>{render(root)}));
 
     root.append(wrapper);
 }
-$(_=>{
-    const root= $(".root");
-    render(root);
-})
+
+const state = {
+    coders: null,
+    selectedCoder: null
+};
+
+$( _ => {
+
+    getJSON('coders.json', (err, json) => {
+
+        if (err) { return alert(err.message);}
+
+        state.coders = json;
+
+        const root = $('.root');
+        render(root);
+    });
+
+});

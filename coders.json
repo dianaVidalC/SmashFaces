@@ -1,235 +1,301 @@
 [{
-  "name": "gatito",
-  "sede": "Lima",
-  "url": "img/gatito.jpg"
-  }]
-
-/*[{
-  image:"Ana Paula Verme.jpg",
-  name:"Ana"
-},{
-  image:"Joselyn Inga.JPG",
-  name:"Joselyn"
-},{
-  image:"Antonella Gutierrez.jpg",
-  name:"Antonella"
-},{
-  image:"Karen Valdivia.JPG",
-  name:"Karen"
-},{
-  image:"Astrid Cordova.jpg",
-  name:"Astrid"
-},{
-  image:"Carmenrosa Arias.jpg",
-  name:"Carmenrosa"
-},{
-  image:"Daniela Segura.JPG",
-  name:"Daniela"
-},{
-  image:"Diana Santisteban.JPG",
-  name:"Diana"
-},{
-  image:"Emily Elena Vivanco.jpg",
-  name:"Emily"
-},{
-  image:"Gabriela Segura.jpg",
-  name:"Gabriela"
-},{
-  image:"Genesis Leon.jpg",
-  name:"Genesis"
-},{
-  image:"Ingrid Dariana Patiño.jpg",
-  name:"Dariana"
-},{
-  image:"Janet Huacahuasi.jpg",
-  name:"Janet"
-},{
-  image:"Jenny Vega.JPG",
-  name:"Jenny"
-},{
-  image:"Jesenia Rodríguez.JPG",
-  name:"Jesenia"
-},{
-  image:"Johana Azañero.JPG",
-  name:"Johana"
-},{
-  image:"Johelyn Cordova.JPG",
-  name:"Johelyn"
-},{
-  image:"Pierina Acevedo.JPG",
-  name:"Pierina"
-},{
-  image:"Karina Prado.jpg",
-  name:"Karina"
-},{
-  image:"Karla Rios.jpg",
-  name:"Karla"
-},{
-  image:"Katherine Llacza.JPG",
-  name:"Katherine"
-},{
-  image:"Kiara Esquerra.JPG",
-  name:"Kiara"
-},{
-  image:"Lisbeth Balabarca.JPG",
-  name:"Lisbeth"
-},{
-  image:"Lizeth Lopez.JPG",
-  name:"Lizeth"
-},{
-  image:"Magaly Flores.jpg",
-  name:"Magaly"
-},{
-  image:"Maria Cecilia Limay.JPG",
-  name:"Cecilia"
-},{
-  image:"Maria Victoria Cardenas.jpg",
-  name:"Maria Victoria"
-},{
-  image:"Merlin Rupay.jpg",
-  name:"Stefanny"
-},{
-  image:"Milu Robles.JPG",
-  name:"Milu"
-},{
-  image:"Monica Ccencho.jpg",
-  name:"Monica"
-},{
-  image:"Nayra Pillihuaman.jpg",
-  name:"Nayra"
-},{
-  image:"Patricia Arakawa.JPG",
-  name:"Patricia"
-},{
-  image:"Reina Torrejón.JPG",
-  name:"Reina"
-},{
-  image:"Rita Ortiz.jpg",
-  name:"Rita"
-},{
-  image:"Sandra Azabache.JPG",
-  name:"Sandra"
-},{
-  image:"Sara Nolasco.JPG",
-  name:"Sara"
-},{
-  image:"Sarita Roman.jpg",
-  name:"Sarita"
-},{
-  image:"Tania Cuya.JPG",
-  name:"Tania"
-},{
-  image:"Vanessa Alvarado.jpg",
-  name:"Vanessa"
-},{
-  image:"Vanessa Vargas.JPG",
-  name:"Vanessa"
-},{
-  image:"Vickensi de la Cruz.jpg",
-  name:"Vickensi"
-}];
-
-[{
-imagen: "Alma Patricia Jimenez.JPG",
-name: "Alma"
-},{
-image: "Ana Maria Barbosa.JPG",
-name: "Ana"
-},{
-image: "Analy Miranda.JPG",
-name: "Analy"
-},{
-image: "Areli Rodriguez.JPG",
-name: "Areli"
-},{
-image: "Beatriz Quesadas.JPG",
-name: "Beatriz"
-},{
-image: "Claudia Hernández.JPG",
-name: "Claudia"
-},{
-image: "Daniela Belem García.JPG",
-name: "Daniela"
-},{
-image: "Elisa Guadalupe Martínez.JPG",
-name: "Elisa"
-},{
-image: "Evelyn Vázquez.JPG",
-name: "Evelyn"
-},{
-image: "Gabriela Peñaloza.JPG",
-name: "Gabriela"
-},{
-image: "Grissel Coutiño.JPG",
-name: "Grissel"
-},{
-image: "Guadalupe Guerrero.JPG",
-name: "Guadalupe"
-},{
-image: "Johana Alexa Vargas.JPG",
-name: "Johana"
-},{
-image: "Joyce Zeltzin Hernández.JPG",
-name: "Joyce"
-},{
-image: "Juana Ofelia García.JPG",
-name: "Juana"
-},{
-image: "Karen A. Sharon De Diego.JPG",
-name: "Karen"
-},{
-image: "Karen Cruz Heredia.JPG",
-name: "Karen Cruz"
-},{
-image: "Karen Quiroz.JPG",
-name: "Karen Quiroz"
-},{
-image: "Karla Monica Llerenas.JPG",
-name: "Karla"
-},{
-image: "Karla Vargas.JPG",
-name: "Karla Vargas"
-},{
-image: "Leslie Anigail Vazquez.JPG",
-name: "Leslie"
-},{
-image: "Lilian Mishel Martínez.JPG",
-name: "Lilian"
-},{
-image: "Milca Sarai Del Angel.JPG",
-name: "Milca"
-},{
-image: "Naibit Leonel.JPG",
-name: "Naibit"
-},{
-image: "Nayeli Carbajal.JPG",
-name: "Nayeli"
-},{
-image: "Nelly Montserrat Saavedra.JPG",
-name: "Nelly"
-},{
-image: "Reyna Hernández.JPG",
-name: "Reyna"
-},{
-image: "Rubí Adriana Santiago.JPG",
-name: "Rubi"
-},{
-image: "Ruth López.JPG",
-name: "Ruth"
-},{
-image: "Ruth Zacnicte Vega.JPG",
-name: "Ruth Zacnicte"
-},{
-image: "Sandra Bollo.JPG",
-name: "Sandra"
-},{
-image: "Sandra Díaz.JPG",
-name: "Sandra Díaz"
-},{
-image: "Vianey Tavatha Moreno.JPG",
-name: "Vianey"
-},{
-image: "Zazil Aurora Martinez.JPG",
-name: "Zazil"
-}];
-*/
+  "image":"img/peru/Ana Paula Verme.jpg",
+  "name":"Ana",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Joselyn Inga.JPG",
+  "name":"Joselyn",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Antonella Gutierrez.jpg",
+  "name":"Antonella",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Karen Valdivia.JPG",
+  "name":"Karen",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Astrid Cordova.jpg",
+  "name":"Astrid",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Carmenrosa Arias.jpg",
+  "name":"Carmenrosa",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Daniela Segura.JPG",
+  "name":"Daniela",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Diana Santisteban.JPG",
+  "name":"Diana",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Emily Elena Vivanco.jpg",
+  "name":"Emily",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Gabriela Segura.jpg",
+  "name":"Gabriela",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Genesis Leon.jpg",
+  "name":"Genesis",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Ingrid Dariana Patiño.jpg",
+  "name":"Dariana",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Janet Huacahuasi.jpg",
+  "name":"Janet",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Jenny Vega.JPG",
+  "name":"Jenny",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Jesenia Rodríguez.JPG",
+  "name":"Jesenia",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Johana Azañero.JPG",
+  "name":"Johana",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Johelyn Cordova.JPG",
+  "name":"Johelyn",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Pierina Acevedo.JPG",
+  "name":"Pierina",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Karina Prado.jpg",
+  "name":"Karina",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Karla Rios.jpg",
+  "name":"Karla",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Katherine Llacza.JPG",
+  "name":"Katherine",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Kiara Esquerra.JPG",
+  "name":"Kiara",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Lisbeth Balabarca.JPG",
+  "name":"Lisbeth",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Lizeth Lopez.JPG",
+  "name":"Lizeth",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Magaly Flores.jpg",
+  "name":"Magaly",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Maria Cecilia Limay.JPG",
+  "name":"Cecilia",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Maria Victoria Cardenas.jpg",
+  "name":"Maria Victoria",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Merlin Rupay.jpg",
+  "name":"Stefanny",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Milu Robles.JPG",
+  "name":"Milu",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Monica Ccencho.jpg",
+  "name":"Monica",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Nayra Pillihuaman.jpg",
+  "name":"Nayra",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Patricia Arakawa.JPG",
+  "name":"Patricia",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Reina Torrejón.JPG",
+  "name":"Reina",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Rita Ortiz.jpg",
+  "name":"Rita",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Sandra Azabache.JPG",
+  "name":"Sandra",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Sara Nolasco.JPG",
+  "name":"Sara",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Sarita Roman.jpg",
+  "name":"Sarita",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Tania Cuya.JPG",
+  "name":"Tania",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Vanessa Alvarado.jpg",
+  "name":"Vanessa",
+  "sede":"Lima"
+},{
+  "image":"img/peru/Vanessa Vargas.JPG",
+  "name":"Vanessa",
+  "sede":"Lima"
+},{
+  "image": "img/peru/Vickensi de la Cruz.jpg",
+  "name": "Vickensi",
+  "sede": "Lima"
+},{
+  "image": "img/mexico/Alma Patricia Jimenez.JPG",
+  "name": "Alma",
+  "sede":"México"
+},{
+  "image": "img/mexico/Ana Maria Barbosa.JPG",
+  "name": "Ana",
+  "sede":"México"
+},{
+  "image": "img/mexico/Analy Miranda.JPG",
+  "name": "Analy",
+  "sede":"México"
+},{
+  "image": "img/mexico/Areli Rodriguez.JPG",
+  "name": "Areli",
+  "sede":"México"
+},{
+  "image": "img/mexico/Beatriz Quesadas.JPG",
+  "name": "Beatriz",
+  "sede":"México"
+},{
+  "image": "img/mexico/Claudia Hernández.JPG",
+  "name": "Claudia",
+  "sede":"México"
+},{
+  "image": "img/mexico/Daniela Belem García.JPG",
+  "name": "Daniela",
+  "sede":"México"
+},{
+  "image": "img/mexico/Elisa Guadalupe Martínez.JPG",
+  "name": "Elisa",
+  "sede":"México"
+},{
+  "image": "img/mexico/Evelyn Vázquez.JPG",
+  "name": "Evelyn",
+  "sede":"México"
+},{
+  "image": "img/mexico/Gabriela Peñaloza.JPG",
+  "name": "Gabriela",
+  "sede":"México"
+},{
+  "image": "img/mexico/Grissel Coutiño.JPG",
+  "name": "Grissel",
+  "sede":"México"
+},{
+  "image": "img/mexico/Guadalupe Guerrero.JPG",
+  "name": "Guadalupe",
+  "sede":"México"
+},{
+  "image": "img/mexico/Johana Alexa Vargas.JPG",
+  "name": "Johana",
+  "sede":"México"
+},{
+  "image": "img/mexico/Joyce Zeltzin Hernández.JPG",
+  "name": "Joyce",
+  "sede":"México"
+},{
+  "image": "img/mexico/Juana Ofelia García.JPG",
+  "name": "Juana",
+  "sede":"México"
+},{
+  "image": "img/mexico/Karen A. Sharon De Diego.JPG",
+  "name": "Karen",
+  "sede":"México"
+},{
+  "image": "img/mexico/Karen Cruz Heredia.JPG",
+  "name": "Karen Cruz",
+  "sede":"México"
+},{
+  "image": "img/mexico/Karen Quiroz.JPG",
+  "name": "Karen Quiroz",
+  "sede":"México"
+},{
+  "image": "img/mexico/Karla Monica Llerenas.JPG",
+  "name": "Karla",
+  "sede":"México"
+},{
+  "image": "img/mexico/Karla Vargas.JPG",
+  "name": "Karla Vargas",
+  "sede":"México"
+},{
+  "image": "img/mexico/Leslie Anigail Vazquez.JPG",
+  "name": "Leslie",
+  "sede":"México"
+},{
+  "image": "img/mexico/Lilian Mishel Martínez.JPG",
+  "name": "Lilian",
+  "sede":"México"
+},{
+  "image": "img/mexico/Milca Sarai Del Angel.JPG",
+  "name": "Milca",
+  "sede":"México"
+},{
+  "image": "img/mexico/Naibit Leonel.JPG",
+  "name": "Naibit",
+  "sede":"México"
+},{
+  "image": "img/mexico/Nayeli Carbajal.JPG",
+  "name": "Nayeli",
+  "sede":"México"
+},{
+  "image": "img/mexico/Nelly Montserrat Saavedra.JPG",
+  "name": "Nelly",
+  "sede":"México"
+},{
+  "image": "img/mexico/Reyna Hernández.JPG",
+  "name": "Reyna",
+  "sede":"México"
+},{
+  "image": "img/mexico/Rubí Adriana Santiago.JPG",
+  "name": "Rubi",
+  "sede":"México"
+},{
+  "image": "img/mexico/Ruth López.JPG",
+  "name": "Ruth",
+  "sede":"México"
+},{
+  "image": "img/mexico/Ruth Zacnicte Vega.JPG",
+  "name": "Ruth Zacnicte",
+  "sede":"México"
+},{
+  "image": "img/mexico/Sandra Bollo.JPG",
+  "name": "Sandra",
+  "sede":"México"
+},{
+  "image": "img/mexico/Sandra Díaz.JPG",
+  "name": "Sandra Díaz",
+  "sede":"México"
+},{
+  "image": "img/mexico/Vianey Tavatha Moreno.JPG",
+  "name": "Vianey",
+  "sede":"México"
+},{
+  "image": "img/mexico/Zazil Aurora Martinez.JPG",
+  "name": "Zazil",
+  "sede":"México"
+}]
