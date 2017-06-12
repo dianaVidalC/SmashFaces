@@ -23,3 +23,27 @@ header p{
 .seleccionar{
     margin-top: 2rem;
 }
+.imagen{
+    margin-top: 3rem;
+    background-color: #F9A91A;
+    height: 30rem;
+}
+.img{
+    height: 30rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+    background-color: #333333;
+    color: #fff;
+}
+.color{
+    text-align: center;
+    background-color: #F9A91A;
+}
+
+.formulario label, .formulario input{
+    margin-bottom: 2rem;
+}

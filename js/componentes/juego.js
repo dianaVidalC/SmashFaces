@@ -4,7 +4,7 @@
 
 'use strict';
 
-const empiezaJuego =(coder,mensaje,update)=>{
+const empiezaJuego =(update)=>{
     const container     = $('<div class="container"></div>');
     const rowSelect     = $('<div class="row"></div>');
     const divSelect     = $('<div class="col-xs-12 seleccionar"></div>');
@@ -16,16 +16,16 @@ const empiezaJuego =(coder,mensaje,update)=>{
     const limaOption    = $('<option>Lima</option>');
     const mexicoOption  = $('<option>México</option>');
     const puntos        = $('<div class="pull-right"><strong><span>Puntos: </span><span class="puntaje"> 0 </span><span>puntos</span></strong></div>');
-    const row           = $('<div class="row hide"></div>');
+    const row           = $('<div class="row imagen"></div>');
     const divImg        = $('<div class="col-xs-6"></div>');
-    const img           = $('<img class="img-responsive">');
+    const img           = $('<img class="img">');
     const rowForm       = $('<div class="col-xs-6 formulario"></div>');
     const form          = $('<form></form>');
     const div           = $('<div class="form-group"></div>');
     const label         = $('<label>Ingresa su nombre:</label>');
     const input         = $('<input type="text" class="form-control" id="nombre-coder" placeholder="Nombre">');
-    const button        = $('<button type="submit" class="btn btn-primary">Comprobar</button>');
-    const mensajeResult = $('<p></p>');
+    const button        = $('<button type="submit" class="btn color">Comprobar</button>');
+    const mensajeResult = $('<p class="resultado"></p>');
 
     divSelect.append(sede);
     select.append(eligeOption);
@@ -52,11 +52,16 @@ const empiezaJuego =(coder,mensaje,update)=>{
     select.on("change",_=>{
 
         selector=$("select option:selected").text();
-        state.selectedCoder=coder;
 
-        $(".hide").removeClass("hide");
+        const sede=state.coders.filter((e)=>{
+           return e.sede==selector;
+        });
+        const array = sede[Math.floor(Math.random() * sede.length)];
+        mostrarImagen(selector,array,img,update);
+        state.coders =array;
 
-        mostrarImagen(selector,input.val(),state.coders,img,update);
+        //mostrarImagen(selector,array,img,update);
+        state.selectedSede=selector;
     })
 
     button.on("click",(e)=>{
@@ -67,22 +72,16 @@ const empiezaJuego =(coder,mensaje,update)=>{
 
         mensajeResult.append(mensaje);
 
+        //mensajeResult.empty();
+
     })
 
     return container;
 }
 
-const mostrarImagen=(valorSelect,inputVal,coder,img,update)=> {
+const mostrarImagen=(valorSelect,coder,img,update)=> {
 
-    const array = coder[Math.floor(Math.random() * coder.length)];
-    console.log(array);
-
-    if (valorSelect === array.sede) {
-
-        img.attr("src", array.image);
-
-    }
-    state.coders=array;
+        img.attr("src", coder.image);
 
 }
 
@@ -90,20 +89,21 @@ const muestraPuntaje = (inputVal,coder,selector,img,update)=>{
     let puntaje = 0;
     let contador = 0;
     let mensaje = "";
-console.log(coder);
+
     if(inputVal.toLowerCase()===coder.name.toLowerCase()){
 
           puntaje++;
 
           $(".puntaje").empty().append(puntaje);
+          $(".resultado").empty();
            mensaje= "Excelente";
 
-        mostrarImagen(selector,inputVal,state.coders,img,update);
-           return mensaje;
+        setTimeout(mostrarImagen(selector,coder,img,update),2000);
 
         }else {
 
             contador++;
+        $(".resultado").empty();
             mensaje= "Sigue intentando";
 
             if (contador == 5) {
@@ -112,9 +112,10 @@ console.log(coder);
 
                 $(".puntaje").empty().append(puntaje);
 
-                return mensaje;
+
             }
         }
+    return mensaje;
       // coder.forEach((element,i)=>{
            //const i = Math.floor(Math.random()*40);
 

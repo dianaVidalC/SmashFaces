@@ -16,7 +16,8 @@ const render = (root)=>{
 
 const state = {
     coders: null,
-    selectedCoder: null
+    selectedCoder: null,
+    selectedSede:null
 };
 
 $( _ => {
