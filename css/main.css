@@ -47,3 +47,7 @@ header p{
 .formulario label, .formulario input{
     margin-bottom: 2rem;
 }
+
+#ceroPadd{
+    padding: 0;
+}

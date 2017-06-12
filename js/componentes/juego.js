@@ -17,7 +17,7 @@ const empiezaJuego =(update)=>{
     const mexicoOption  = $('<option>México</option>');
     const puntos        = $('<div class="pull-right"><strong><span>Puntos: </span><span class="puntaje"> 0 </span><span>puntos</span></strong></div>');
     const row           = $('<div class="row imagen"></div>');
-    const divImg        = $('<div class="col-xs-6"></div>');
+    const divImg        = $('<div id="ceroPadd" class="col-xs-6"></div>');
     const img           = $('<img class="img">');
     const rowForm       = $('<div class="col-xs-6 formulario"></div>');
     const form          = $('<form></form>');
